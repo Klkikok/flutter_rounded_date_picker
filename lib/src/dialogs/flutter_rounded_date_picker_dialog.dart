@@ -167,7 +167,7 @@ class _FlutterRoundedDatePickerDialogState extends State<FlutterRoundedDatePicke
   }
 
   void _handleCancel() {
-    Navigator.of(context).pop(widget.initialDate);
+    Navigator.of(context).pop();
   }
 
   void _handleOk() {
